@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282828; /* YouTube's dark background color */
+    color: #FFFFFF; /* White text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #202020; /* Slightly lighter dark color */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #FF0000; /* YouTube's red color */
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #FF0000; /* YouTube's red color */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e60000; /* Slightly darker red for hover effect */
+}
+
+.summary, .error {
+    margin-top: 20px;
+    background-color: #383838; /* Dark gray box for content */
+    padding: 15px;
+    border-radius: 8px;
+}
